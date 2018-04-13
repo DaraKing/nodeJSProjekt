@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="loginForm" style="margin-top: 20px;">
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+            <button class="submitBtn" id="userSubmit" type="submit">Submit</button>
+        </div>
+    </div>
+
+    <div class="container answerContent">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 question">Pitanje</div>
+            <div id="answers1" class="col-lg-6  col-xs-6 answer"></div>
+            <div id="answers2" class="col-lg-6 col-xs-6 answer"></div>
+            <div id="answers3" class="col-lg-6 col-xs-6 answer"></div>
+            <div id="answers4" class="col-lg-6 col-xs-6 answer"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
